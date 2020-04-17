@@ -1,0 +1,166 @@
+body{
+    background-color: #000;
+    color:#fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#photo{
+    height: 450px;
+    width: 350px;
+    
+}
+
+.photo{
+    margin-left: 850px;
+    margin-top: -320px;
+    
+}
+
+.container{
+    margin: 40px;
+    height: 1000px;
+    background-image: url(https://res.cloudinary.com/mercyinyang/image/upload/v1586976854/FE%20Task/image3_rd5ljq.jpg);
+}
+
+.text-1{
+    padding-left: 80px;
+    padding-top: 150px;
+}
+
+#big-text{
+font-size: 34px;
+}
+
+#small-text{
+font-size: 18px;
+}
+
+.cont-button{
+    background-color: transparent;
+    border-color: #fff;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px ;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.data{
+    margin-top: 50px;
+    border: 20px;
+    padding: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#data-2{
+    margin-top: -272px;
+    margin-left: 250px;
+}
+
+.data h1{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.data p{
+    margin-top: -20px;
+    font-size: 18px;
+}
+.con-text{
+    color:#fff;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fill-text{
+    color:#fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    background-color: #000;
+    border: 1px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+label{
+    display: block;
+}
+
+.box{
+    background-color: #1a4f20;
+    width: 45%;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding: 18px 18px 18px 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-1{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-2{
+    width: 100%;
+    margin-top: -360px;
+    margin-left: 450px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #fff;
+    font-weight: bold;
+    width: 30%;
+}
+
+textarea {
+    padding: 8px;
+    height: 250px;
+}
