@@ -62,8 +62,8 @@ a{
 }
 
 #data-2{
-    margin-top: -272px;
-    margin-left: 250px;
+    margin-top: -295px;
+    margin-left: 230px;
 }
 
 .data h1{
@@ -102,6 +102,7 @@ a{
     padding: 40px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 50px;
     border-radius: 20px;
     font-size: 16px;
     color: #fff;
@@ -163,4 +164,8 @@ label{
 textarea {
     padding: 8px;
     height: 250px;
+}
+
+@media screen and (max-width: 601px){
+
 }
