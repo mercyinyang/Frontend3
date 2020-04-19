@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function para(num) {
+            let word=[]
+            for (let i = 1; i <= num; i++) {
+                // To replace numbers divisible by "2", "2,3", "2,5" and "2,3,5"
+                if (i%2===0) {
+                    if (i%3===0 && i%5===0) {
+                        word.push("yu-gi-oh"); 
+                    }
+                    else if (i%3===0){
+                    word.push("yu-gi");
+                    }
+                    else if (i%5===0){
+                        word.push("yu-oh");
+                    }
+                    else {
+                        word.push("yu");
+                    }
+                }
+
+                // To replace numbers divisible by "3" and "3,5"
+                else if (i%3===0){
+                    if (i%5===0){
+                        word.push("gi-oh");
+                    }
+                    else {
+                        word.push("gi");
+                    }
+                }
+
+                // To replace numbers divisible by "5"
+                else if (i%5===0){
+                    word.push("oh");
+                }
+                else {
+                    word.push(i);
+                }
+            }
+
+            return word;
+        }
+
+        console.log(para(100));
+    </script>
+</body>
+</html>
